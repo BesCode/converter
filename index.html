@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enter A Value in Grams</h1>
+        <div class="input">
+            <input type="number" class="inputValue">
+        </div>
+
+        <div class="convert">
+            <label for="convert">Convert to:</label>
+            <select id="convert">
+                <option value="kilogram">Kilograms</option>
+                <option value="miligram">Miligrams</option>
+                <option value="ounce">Ounces</option>
+                <option value="tonne">Tonnes</option>
+                <option value="pound">Pounds</option>
+            </select>
+        </div>
+
+        <button class="convertBtn">Convert</button>
+
+        <div class="output"></div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
