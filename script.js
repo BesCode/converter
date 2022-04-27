@@ -2,8 +2,12 @@ const convertBtn = document.querySelector(".convertBtn");
 const output = document.querySelector(".output");
 const inputValue = document.querySelector(".inputValue");
 const convert = document.querySelector("#convert");
+const container = document.querySelector(".container");
+const theme = document.querySelector(".theme");
+const bx = document.querySelector(".bx")
 
 convertBtn.addEventListener("click", getConvertBtn);
+theme.addEventListener("click", togggleTheme);
 
 function getConvertBtn() {
 
@@ -34,5 +38,10 @@ function getConvertBtn() {
     else {
         alert("Please Select Input")
     }
+}
 
+function togggleTheme() {
+    container.classList.toggle("light");
+
+    bx.classList.toggle("bxs-sun");
 }
