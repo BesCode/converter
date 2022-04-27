@@ -21,7 +21,7 @@ function getConvertBtn() {
         output.innerHTML = `${inputValue.value}g = ${calculation} Ounces`
     }
 
-    else if (convert.value === "ton") {
+    else if (convert.value === "tonne") {
         let calculation = inputValue.value * 0.0000011
         output.innerHTML = `${inputValue.value}g = ${calculation} Tonnes`
     }
